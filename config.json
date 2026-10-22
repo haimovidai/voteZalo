@@ -1,0 +1,33 @@
+{
+  "timezone": "Asia/Ho_Chi_Minh",
+  "polls": [
+    {
+      "groupId": "956845614208776679",
+      "cron": "0 9 * * 1",
+      "playDay": 5,
+      "titleTemplate": "Đánh cầu thứ 6 ngày {date} (đây là tin nhắn tự động)",
+      "options": ["Có", "Bận"]
+    },
+    {
+      "groupId": "3586936548328850791",
+      "cron": "0 9 * * 2",
+      "playDay": 3,
+      "titleTemplate": "Đánh pick t4 ngày {date} 18h đình thôn 2 (đây là tin nhắn tự động)",
+      "options": ["Có", "Bận"]
+    },
+    {
+      "groupId": "3586936548328850791",
+      "cron": "0 9 * * 4",
+      "playDay": 5,
+      "titleTemplate": "Đánh pick t6 ngày {date} 20h đình thôn 2 (đây là tin nhắn tự động)",
+      "options": ["Có", "Bận"]
+    },
+    {
+      "groupId": "",
+      "cron": "0 9 * * 1",
+      "playDay": 2,
+      "titleTemplate": "Đá bóng thứ 3 ngày {date} 19h15 sân số 2 Nguyên Dương (đây là tin nhắn tự động)",
+      "options": ["Có", "Bận"]
+    }
+  ]
+}

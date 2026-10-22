@@ -1,0 +1,20 @@
+{
+    "name":  "zalo-vote-bot",
+    "version":  "1.0.0",
+    "private":  true,
+    "type":  "module",
+    "description":  "Bot táº¡o vote Ä‘Ã¡ bÃ³ng hÃ ng tuáº§n trong group Zalo",
+    "scripts":  {
+                    "login":  "node bot.js login",
+                    "groups":  "node bot.js groups",
+                    "now":  "node bot.js now",
+                    "start":  "node bot.js",
+                    "install-service":  "node service.js install",
+                    "uninstall-service":  "node service.js uninstall"
+                },
+    "dependencies":  {
+                         "node-cron":  "^3.0.3",
+                         "node-windows":  "^1.0.0-beta.8",
+                         "zca-js":  "^2.2.0"
+                     }
+}
